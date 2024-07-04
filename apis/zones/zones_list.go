@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/mittwald/go-powerdns/pdnshttp"
+	"github.com/scopisto/go-powerdns/pdnshttp"
 )
 
 func (c *client) ListZones(ctx context.Context, serverID string) ([]Zone, error) {

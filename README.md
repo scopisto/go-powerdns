@@ -1,6 +1,6 @@
 # PowerDNS client library for Go
 
-[![GoDoc](https://godoc.org/github.com/mittwald/go-powerdns?status.svg)](https://godoc.org/github.com/mittwald/go-powerdns)
+[![GoDoc](https://godoc.org/github.com/scopisto/go-powerdns?status.svg)](https://godoc.org/github.com/scopisto/go-powerdns)
 [![Build Status](https://travis-ci.org/mittwald/go-powerdns.svg?branch=master)](https://travis-ci.org/mittwald/go-powerdns)
 [![Maintainability](https://api.codeclimate.com/v1/badges/aa54a869f5ff56477a2a/maintainability)](https://codeclimate.com/github/mittwald/go-powerdns/maintainability)
 
@@ -22,7 +22,7 @@ This package contains a Go library for accessing the [PowerDNS][powerdns] Author
 Install using `go get`:
 
 ```console
-> go get github.com/mittwald/go-powerdns
+> go get github.com/scopisto/go-powerdns
 ```
 
 ## Usage
@@ -45,8 +45,8 @@ Have a look at this library's [documentation][godoc] for more information.
 package main
 
 import "context"
-import "github.com/mittwald/go-powerdns"
-import "github.com/mittwald/go-powerdns/apis/zones"
+import "github.com/scopisto/go-powerdns"
+import "github.com/scopisto/go-powerdns/apis/zones"
 
 func main() {
     client, err := pdns.New(
@@ -74,4 +74,4 @@ func main() {
 ```
 
 [powerdns]: https://github.com/PowerDNS/pdns
-[godoc]: https://godoc.org/github.com/mittwald/go-powerdns
+[godoc]: https://godoc.org/github.com/scopisto/go-powerdns

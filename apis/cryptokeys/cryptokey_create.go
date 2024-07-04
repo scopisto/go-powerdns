@@ -3,7 +3,7 @@ package cryptokeys
 import (
 	"context"
 	"fmt"
-	"github.com/mittwald/go-powerdns/pdnshttp"
+	"github.com/scopisto/go-powerdns/pdnshttp"
 	"net/url"
 )
 

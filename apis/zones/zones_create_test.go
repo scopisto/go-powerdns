@@ -2,7 +2,7 @@ package zones
 
 import (
 	"context"
-	"github.com/mittwald/go-powerdns/pdnshttp"
+	"github.com/scopisto/go-powerdns/pdnshttp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/h2non/gock.v1"

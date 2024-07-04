@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/mittwald/go-powerdns/pdnshttp"
+	"github.com/scopisto/go-powerdns/pdnshttp"
 )
 
 func (c *client) Flush(ctx context.Context, serverID string, name string) (*FlushResult, error) {

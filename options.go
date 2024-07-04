@@ -3,7 +3,7 @@ package pdns
 import (
 	"crypto/tls"
 	"crypto/x509"
-	"github.com/mittwald/go-powerdns/pdnshttp"
+	"github.com/scopisto/go-powerdns/pdnshttp"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -29,7 +29,8 @@ func WithHTTPClient(httpClient *http.Client) ClientOption {
 // WithAPIKeyAuthentication adds API-key based authentication to the PowerDNS client.
 // In effect, each HTTP request will have an additional header that contains the API key
 // supplied to this function:
-//  X-API-Key: {{ key }}
+//
+//	X-API-Key: {{ key }}
 func WithAPIKeyAuthentication(key string) ClientOption {
 	return func(c *client) error {
 		c.authenticator = &pdnshttp.APIKeyAuthenticator{

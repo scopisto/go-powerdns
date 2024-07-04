@@ -1,6 +1,6 @@
 package zones
 
-import "github.com/mittwald/go-powerdns/pdnshttp"
+import "github.com/scopisto/go-powerdns/pdnshttp"
 
 type client struct {
 	httpClient *pdnshttp.Client

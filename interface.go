@@ -2,12 +2,12 @@ package pdns
 
 import (
 	"context"
-	"github.com/mittwald/go-powerdns/apis/cryptokeys"
+	"github.com/scopisto/go-powerdns/apis/cryptokeys"
 
-	"github.com/mittwald/go-powerdns/apis/cache"
-	"github.com/mittwald/go-powerdns/apis/search"
-	"github.com/mittwald/go-powerdns/apis/servers"
-	"github.com/mittwald/go-powerdns/apis/zones"
+	"github.com/scopisto/go-powerdns/apis/cache"
+	"github.com/scopisto/go-powerdns/apis/search"
+	"github.com/scopisto/go-powerdns/apis/servers"
+	"github.com/scopisto/go-powerdns/apis/zones"
 )
 
 // Client is the root-level interface for interacting with the PowerDNS API.

@@ -3,16 +3,16 @@ package pdns
 import (
 	"context"
 	"errors"
-	"github.com/mittwald/go-powerdns/apis/cryptokeys"
+	"github.com/scopisto/go-powerdns/apis/cryptokeys"
 	"io"
 	"net/http"
 	"time"
 
-	"github.com/mittwald/go-powerdns/apis/cache"
-	"github.com/mittwald/go-powerdns/apis/search"
-	"github.com/mittwald/go-powerdns/apis/servers"
-	"github.com/mittwald/go-powerdns/apis/zones"
-	"github.com/mittwald/go-powerdns/pdnshttp"
+	"github.com/scopisto/go-powerdns/apis/cache"
+	"github.com/scopisto/go-powerdns/apis/search"
+	"github.com/scopisto/go-powerdns/apis/servers"
+	"github.com/scopisto/go-powerdns/apis/zones"
+	"github.com/scopisto/go-powerdns/pdnshttp"
 )
 
 type client struct {
