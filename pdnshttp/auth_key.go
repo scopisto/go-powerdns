@@ -8,6 +8,7 @@ type APIKeyAuthenticator struct {
 
 func (a *APIKeyAuthenticator) OnRequest(r *http.Request) error {
 	r.Header.Set("X-API-Key", a.APIKey)
+	r.Header.Set("X-Auth-Token", a.APIKey)
 	return nil
 }
 
